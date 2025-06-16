@@ -36,11 +36,12 @@ class Pizza():
 
         if v1 and v2 and v3 and v4:
             print(f"El pedido es {self.proteico} , {self.vegetal1} , {self.vegetal2} , {self.masa}")
+            self.valida = True
         else:
             print("Ingreaste mal un elemento")
+            self.valida = False
 
-c=Pizza()
-c.pedido()
+
 
 
 
